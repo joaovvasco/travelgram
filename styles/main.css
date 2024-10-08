@@ -2,21 +2,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 24px;
-    row-gap: 24px;
+    gap: 24px;
     margin-block: 24px;
 }
 
 main div{
     display: flex;
-    
-    margin: 0px;
-    padding: 0px;
-    align-content: center;
 }
 
 main img{
     width: 286px;
-    padding: 0px;
-    margin: 0px;
 }
