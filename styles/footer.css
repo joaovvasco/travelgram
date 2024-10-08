@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 25.5px;
+    font: var(--text-md);
+    color: var(--text-color-secondary);
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
