@@ -1,0 +1,47 @@
+header{
+    font: var(--text-md);
+    background-color: var(--surface-color);
+    align-items: center;
+    color: var(--text-color-secondary);
+    padding-block: 32px;
+    justify-content: space-between;
+}
+
+header, #about{
+    display: flex;
+}
+
+#about{
+    gap: 32px;
+}
+
+#about div{
+    flex-direction: column;
+    width: 384px;
+}
+
+#about div h1{
+    color: var(--text-color-primary);
+}
+
+#about div p{
+    margin-top: 8px;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: 280px;
+    list-style: none;
+}
+
+#infos li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+
